@@ -1,0 +1,121 @@
+{
+  "bsc": {
+    "chainId": 56,
+    "name": "BNB Smart Chain",
+    "rpc": "https://bsc-dataseed.bnbchain.org",
+    "explorer": "https://bscscan.com",
+    "pancake": {
+      "v3Factory": "0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865",
+      "v3PoolDeployer": "0x41ff9AA7e16B8B1a8a8dc4f0eFacd93D02d071c9",
+      "positionManager": "0x46A15B0b27311cedF172AB29E4f4766fbE7F4364",
+      "smartRouter": "0x13f4EA83D0bd40E75C8222255bc855a974568Dd4",
+      "quoterV2": "0xB048Bbc1Ee6b733FFfCFb9e9CeF7375518e25997",
+      "universalRouter": "0x1A0A18AC4BECDDbd6389559687d1A73d8927E416",
+      "masterChefV3": "0x556B9306565093C855AEA9AE92A594704c2Cd59e",
+      "tickLens": "0x9a489505a00cE272eAa5e07Dba6491314CaE3796",
+      "v2Factory": "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+      "v2Router": "0x10ED43C718714eb63d5aA57B78B54704E256024E"
+    },
+    "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+    "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "flapPortal": "0xe2cE6ab80874Fa9Fa2aAE65D277Dd6B8e65C9De0",
+    "wbnb": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "cake": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+    "tokens": [
+      {
+        "symbol": "WBNB",
+        "token": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "feed": "0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE",
+        "stable": false
+      },
+      {
+        "symbol": "USDT",
+        "token": "0x55d398326f99059fF775485246999027B3197955",
+        "feed": "0xB97Ad0E74fa7d920791E90258A6E2085088b4320",
+        "stable": true
+      },
+      {
+        "symbol": "USDC",
+        "token": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "feed": "0x51597f405303C4377E36123cBc172b13269EA163",
+        "stable": true
+      },
+      {
+        "symbol": "CAKE",
+        "token": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+        "feed": "0xB6064eD41d4f67e353768aA239cA86f4F73665a1",
+        "stable": false
+      },
+      {
+        "symbol": "BTCB",
+        "token": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "feed": "0x264990fbd0A4796A3E3d8E37C4d5F87a3aCa5Ebf",
+        "stable": false
+      },
+      {
+        "symbol": "ETH",
+        "token": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "feed": "0x9ef1B8c0E4F7dc8bF5719Ea496883DC6401d5b2e",
+        "stable": false
+      }
+    ]
+  },
+  "bsc_testnet": {
+    "chainId": 97,
+    "name": "BNB Smart Chain Testnet",
+    "rpc": "https://bsc-testnet-rpc.publicnode.com",
+    "explorer": "https://testnet.bscscan.com",
+    "testnet": true,
+    "_oracleFeeds": "false on testnet: testnet pools don't follow real prices, so the oracle uses each pool's own average (or a delayed snapshot) instead of Chainlink. Feeds below are still used for USD display.",
+    "oracleFeeds": false,
+    "pancake": {
+      "v3Factory": "0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865",
+      "v3PoolDeployer": "0x41ff9AA7e16B8B1a8a8dc4f0eFacd93D02d071c9",
+      "positionManager": "0x427bF5b37357632377eCbEC9de3626C71A5396c1",
+      "smartRouter": "0x9a489505a00cE272eAa5e07Dba6491314CaE3796",
+      "quoterV2": "0xbC203d7f83677c7ed3F7acEc959963E7F4ECC5C2",
+      "masterChefV3": "0x4c650FB471fe4e0f476fD3437C3411B1122c4e3B",
+      "tickLens": "0xac1cE734566f390A94b00eb9bf561c2625BF44ea",
+      "v2Factory": "0x6725F303b657a9451d8BA641348b6761A6CC7a17",
+      "v2Router": "0xD99D1c33F9fC3444f8101754aBC46c52416550D1"
+    },
+    "permit2": "0x000000000022D473030F116dDEE9F6B43aC78BA3",
+    "multicall3": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "flapPortal": "0x5bEacaF7ABCbB3aB280e80D007FD31fcE26510e9",
+    "wbnb": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
+    "cake": "0x8d008B313C1d6C7fE2982F62d32Da7507cF43551",
+    "tokens": [
+      {
+        "feed": "0x2514895c72f50D8bd4B4F9b1110F0D6bD2c97526",
+        "stable": false,
+        "symbol": "WBNB",
+        "token": "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd"
+      },
+      {
+        "feed": "0xEca2605f0BCF2BA5966372C99837b1F182d3D620",
+        "stable": true,
+        "symbol": "USDT",
+        "token": "0x337610d27c682E347C9cD60BD4b3b107C9d34dDd"
+      },
+      {
+        "feed": "0x90c069C4538adAc136E051052E14c1cD799C41B7",
+        "stable": true,
+        "symbol": "USDC",
+        "token": "0x64544969ed7EBf5f083679233325356EbE738930"
+      },
+      {
+        "feed": "0x81faeDDfeBc2F8Ac524327d70Cf913001732224C",
+        "stable": false,
+        "symbol": "CAKE",
+        "token": "0x8d008B313C1d6C7fE2982F62d32Da7507cF43551"
+      }
+    ],
+    "pools": [
+      "0x2dbB5a4c235164B9f772179A43faca2c71a8abDB",
+      "0xe62C422c1E8083CE3b4526Ff0b16388354AB6E64",
+      "0x3E9eB43FDcbC21790008AFc127AbE261F048ed58",
+      "0x29A37a042b71705F7231F6aa7022D5C30c52A588",
+      "0x591353162d98908412F7130a19105736D853c309"
+    ]
+  }
+}

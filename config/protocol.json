@@ -1,0 +1,77 @@
+{
+  "_status": "Launch numbers for BSC mainnet. Staking amounts assume 50,000 QDAO is a few hundred dollars; change them before deploy if the launch price is very different.",
+  "_units": "bps = basis points (100 bps = 1%). Token amounts are whole QDAO/BNB as strings.",
+
+  "fees": {
+    "protocolFeeBps": 200,
+    "maxProtocolFeeBps": 1000,
+    "swapFeeBps": 10
+  },
+
+  "referrals": {
+    "referrerShareBps": 2000,
+    "inviteeDiscountBps": 1000,
+    "inviteeDiscountDays": 60,
+    "codeLength": 8
+  },
+
+  "staking": {
+    "tierAmounts": ["50000", "200000", "750000", "2000000"],
+    "tierDays": [0, 30, 90, 180],
+    "discountBps": [
+      [200, 400, 700, 1000],
+      [400, 800, 1200, 1600],
+      [800, 1200, 1800, 2500],
+      [1200, 1800, 2800, 4000]
+    ],
+    "boostBps": [
+      [10200, 10500, 11000, 11500],
+      [10500, 11000, 11800, 12500],
+      [11000, 11800, 13000, 14500],
+      [11500, 12500, 14500, 17500]
+    ],
+    "rewardStreamDays": 30
+  },
+
+  "revenue": {
+    "bnbSplitBps": { "well": 3500, "boostReserve": 500, "buyback": 3000, "safetyFund": 2000, "team": 1000 },
+    "qdaoSplitBps": { "burn": 5000, "expansionReserve": 3500, "boostReserve": 1500 }
+  },
+
+  "automation": {
+    "reinvestTiers": [
+      { "maxPositionUsd": 50, "thresholdBps": 2000 },
+      { "maxPositionUsd": 100, "thresholdBps": 1000 },
+      { "maxPositionUsd": 1000, "thresholdBps": 500 },
+      { "maxPositionUsd": null, "thresholdBps": 250 }
+    ],
+    "minReinvestBps": 250,
+    "reinvestShareMinBps": 1000,
+    "slippage": { "defaultBps": 300, "majorsBps": 100, "minBps": 100, "maxBps": 500 },
+    "minRangeWidthTicks": 200,
+    "minRebalanceIntervalSec": 900,
+    "dynamicRules": { "stepBps": 1500, "volatilityDailyMoves": 2, "averageHours": 24, "minWidthFactorBps": 5000, "maxWidthFactorBps": 20000 },
+    "stockMarket": { "overrideBps": 1500 },
+    "keeper": { "graceHours": 6, "maxGasPriceGwei": "3", "maxRefundBnb": "0.002", "gasOverhead": 60000, "checkIntervalMin": 30 },
+    "oracle": { "maxDeviationBps": 200, "chainlinkMaxAgeSec": 86400, "twapSeconds": 1800, "delayedMinSec": 60, "delayedMaxSec": 1800 }
+  },
+
+  "buyback": {
+    "curve": { "minIntervalSec": 3600, "minAmountBnb": "0.01", "maxWaitSec": 21600 },
+    "dex": { "minIntervalSec": 21600, "maxPerBuyBnb": "0.5" },
+    "stabilitySec": 60,
+    "stabilityBps": 100,
+    "maxBuyTaxBps": 1000,
+    "slippageBps": 300
+  },
+
+  "governance": {
+    "timelockHours": 48
+  },
+
+  "markets": {
+    "minLiquidityUsd": 10000,
+    "newTokenDays": 7,
+    "topCount": 25
+  }
+}

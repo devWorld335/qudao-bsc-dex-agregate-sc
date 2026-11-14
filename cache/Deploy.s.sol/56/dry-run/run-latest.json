@@ -1,0 +1,98 @@
+{
+  "transactions": [
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    },
+    {
+      "rpc": "https://bsc-rpc.publicnode.com"
+    }
+  ],
+  "recovery_generation": "0x2b5ae313ddfe71f32c1742dcb2740c6cbfce4176a0e30bb49d24d0969ebafab4"
+}
